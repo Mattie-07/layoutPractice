@@ -3,14 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Two Columns</title>
     <style>
+        *{
+            box-sizing:border-box;
+        }
+        h1{
+            text-align: center;
+            /* background-color: lightseagreen; */
+            color:rgb(114, 72, 72);
+            height: 100px;
 
-        
+        }
+
+
+
+            .leftC{ 
+                float:left;
+                width: 30%;
+                padding:20px;
+                height: 300px;
+
+
+                /* float:left;
+                width:30%;
+                text-align: right;
+                width:500px;
+                font-size: 40px;
+                height: 100%;
+                padding:20px;
+                margin-top:20px; */
+                
+
+            }
+            .rightC:after{
+                content:"";
+                display:table;
+                clear: both;    
+
+
+
+                /* display:inline;
+                float:right;
+                height:100px;
+                display:table;
+                clear:both */
+                
+            }
+
+            body{
+                background-color:wheat ;
+            }
+
+
+
+
+        }
     </style>
 
 </head>
-<body>
+
+<body background>
+    <h1> Hi ya'll! This is the header for my first homework assignment. I hope that it looks
+        good because I spent alot of time and effort to make it look nice!
+    </h1>
+
+
     
+    <div class="rightC">
+        <div class="leftC">
+            <h2>This is my left column!</h2>
+            <p>On the left side of my screen, I wanted to show as much content as I can. Mainly. I just
+                need to take up space so that everything over here will serve a purpose as I get better!  
+            </p> 
+        </div>
+        <div class="leftC" style="width:70%">     
+            <h2> My second column</h2>
+            <p>Ok - this is where the bulk of my content will go. As a bonus, im also going to incluse a 
+                special picture in here! I hope that it looks nice and that it shapes up to exactly
+                how I imagine it to be! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Explicabo quas voluptas hic in magnam officiis omnis, veritatis
+                dolore at soluta magni nesciunt ut, consequatur, ipsa beatae dicta possimus quod est? </p>
+        </div>
+    </div>    
+    </div>
+
+    </div>
+
+
 </body>
 </html>
+
+<!-- I should add a border on the left side of one the columns so that it will look like an actual
+column there and like a container. -->

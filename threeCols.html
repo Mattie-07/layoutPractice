@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Columns</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        h1{
+            text-align: center;
+            /* background-color: lightseagreen; */
+            color:rgb(114, 72, 72);
+            height: 100px;
+
+        }
+
+
+
+            .column{ 
+                float:left;
+                padding:20px;
+                height: 500px;
+                
+
+            }
+            .left, .right{
+                width:25%;
+
+            }
+            .middle{
+                width:50%;
+            }   
+                
+            
+            .row:after{
+                content:"";
+                display:table;
+                clear:both;
+
+            }
+
+            body{
+                background-color:darkgrey;
+                color:rgb(78, 141, 78)
+            }
+
+
+
+
+        }
+    </style>
+
+</head>
+
+<body background>
+    <h1> This is the second assignment for the homework, which is where I will add a total of three~
+        You heard that - three! different columns to one webpage. Its very good practice
+        because alot of webpages uses that exact same format. 
+    </h1>
+
+
+    
+    <div class="row">
+        <div class="column left">
+            <h2>Our first column</h2>
+            <p>This is the text that will go inside of the first column. nothing really specia
+                about it. other than it will take up space for the first three column page!
+            </p>
+        </div>
+            <div class="column middle">
+                <h2>This is my Middle Column!</h2>
+                <p>Ok - this is where the bulk of my content will go. As a bonus, im also going to incluse a 
+                    special picture in here! I hope that it looks nice and that it shapes up to exactly
+                    how I imagine it to be! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Explicabo quas voluptas hic in magnam officiis omnis, veritatis
+                    dolore at soluta magni nesciunt ut, consequatur, ipsa beatae dicta possimus quod est?  
+                </p> 
+                </div>
+        <div class="column right" >     
+            <h2> Right Column!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, repellat 
+                excepturi impedit suscipit deserunt nostrum delectus, veniam dignissimos 
+                dolores aperiam non culpa velit modi alias odio iusto debitis nesciunt 
+                doloribus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, repellat 
+                excepturi impedit suscipit deserunt nostrum delectus, veniam dignissimos 
+                dolores aperiam non culpa velit modi alias odio iusto debitis nesciunt 
+                doloribus?
+            </p>
+        </div>    
+
+    </div>
+
+
+</body>
+</html>
+
+<!-- I should add a border on the left side of one the columns so that it will look like an actual
+column there and like a container. -->
